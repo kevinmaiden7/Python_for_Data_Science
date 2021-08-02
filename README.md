@@ -34,6 +34,13 @@ You can also type `conda info` to see more information, including the Python ver
 
 Open a terminal and type either `conda --version` or `conda info`.
 
+---
+**For both Windows and Mac, you should also be able to open the *Anaconda Navigator* panel, from your system search bar:**
+
+![](images/anaconda_navigator.png?raw=true)
+
+---
+
 ### Linux
 
 After completing the installation, close your terminal and open a new one. Then, you should be able to init Jupyter Notebook by typing `jupyter notebook`. If you see something like this, everything is OK:
@@ -44,7 +51,9 @@ Otherwise, if you get the message *“jupyter: command not found”*: run `expor
 
 If at this point you get the message *"Running as root is not recommended. Use --allow-root to bypass."*, execute `jupyter notebook --allow-root`.
 
-# Acknowledgments
+---
+
+## Acknowledgments
 
 Some material presented here was extracted and adapted from:
 
